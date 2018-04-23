@@ -1,0 +1,14 @@
+CREATE TABLE users (
+	id VARCHAR (5) NOT NULL AUTO_INCREMENT,
+	username VARCHAR (50) NOT NULL,
+    email VARCHAR (50) NOT NULL,
+    password VARCHAR (50) NOT NULL,
+	PRIMARY KEY (id)
+);
+
+INSERT INTO users VALUES ('Dendika Nurammadhan','12345');
+INSERT INTO users VALUES ('Aji Setia','12345');
+INSERT INTO users VALUES ('Kartika Ramahdan','12345');
+INSERT INTO users VALUES ('Doni Satyha','12345');
+INSERT INTO users VALUES ('Kirun','12345');
+
